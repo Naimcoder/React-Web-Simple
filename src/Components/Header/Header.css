@@ -1,0 +1,30 @@
+ol,
+ul,
+a {
+  text-decoration: none;
+  display: inline-block;
+  list-style-type: none;
+}
+.Header {
+  height: 80px;
+  background: #1c2b35;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 140px;
+}
+ .menu ul{
+     display: flex;  
+}
+ .menu ul li  {
+margin-left: 36px;
+}
+ .menu ul li a{
+     font-size: 17px;
+     color: #fff;
+     font-weight: 500;
+}
+.menu ul li a:hover{
+     color: orange;
+     transition: all linear .3s;
+}
