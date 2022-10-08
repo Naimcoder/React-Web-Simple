@@ -1,0 +1,41 @@
+.card-container {
+  display: flex;
+  border: 2px solid #dddd;
+  width: 571px;
+  margin: 21px auto;
+  padding: 8px;
+  box-shadow: 2px 2px 4px #ddd;
+  border-radius: 8px;
+}
+
+.card-img {
+    display: flex;
+  margin-right: 12px;
+}
+.card-img img {
+  width: 91px;
+}
+.card-info-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.card-info h3{
+    margin: 0;
+}
+.card-info p{
+    margin: 0px;
+}
+.deleted-icon{
+    font-size: 31px;
+    color: rgba(255, 0, 0, 0.5);
+}
+.btn-deleted{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    border: none;
+    background-color: #dddd;
+}
